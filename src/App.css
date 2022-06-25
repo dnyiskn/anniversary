@@ -46,6 +46,7 @@ button {
 
 button:hover {
   background-color: green;
+  color: white;
 }
 
 a {

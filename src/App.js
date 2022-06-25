@@ -1,11 +1,13 @@
 import './App.css';
-
+import newImg from '../src/image/IMG-4422.png'
 function App() {
   return (
     <div className="App">
       <div className="container">
         <h1>55 Years</h1>
-        
+         
+      <img src={newImg} alt="Works only on Computer"/>
+      
         <div>
           <ul className='instructions'><li><h2>Computer only</h2></li>
           <li>Click " <em>Download</em> "</li>
@@ -21,3 +23,5 @@ function App() {
 }
 
 export default App;
+// https://drive.google.com/file/d/1Mr_bvVo52_Al6Et_skOmcLsADEBPKiEu/view?usp=sharing
+// https://drive.google.com/file/d/1Mr_bvVo52_Al6Et_skOmcLsADEBPKiEu/view
