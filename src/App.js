@@ -1,5 +1,5 @@
 import './App.css';
-import rings from './rings.jpg';
+
 function App() {
   return (
     <div className="App">
