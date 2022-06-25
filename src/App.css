@@ -19,10 +19,10 @@ h2 {
 }
 
 .container {
-  margin: auto;
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin: auto;
   justify-content: center;
   width: 100%;
 }
@@ -35,9 +35,10 @@ ul {
 }
 
 button {
+  bottom: 10px;
   align-self: center;
   max-width: 50%;
-  background-color: #d3d3d3;
+  background-color: #5D5D5D;
   border-radius: 5px;
   border: solid 2px white;
   padding: 10px 15px;
@@ -46,19 +47,20 @@ button {
 
 button:hover {
   background-color: green;
-  color: white;
 }
 
 a {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   font-size: 1.2em;
+  color: #F8F8FF;
 }
 
 a:visited {
-  color: black;
+  color: #F8F8FF;
 }
 
-a:hover {
-  color: white;
+.image {
+  max-width: 90vw;
+  margin: 0 auto;
 }/*# sourceMappingURL=App.css.map */

@@ -28,9 +28,10 @@ ul{
     font-size: 1.2em;
 }
 button{
+    bottom: 10px;
     align-self: center;
     max-width: 50%;
-    background-color: #d3d3d3;
+    background-color: #5D5D5D;
     border-radius: 5px;
     border: solid 2px white;
     padding: 10px 15px;
@@ -38,17 +39,17 @@ button{
 }
 button:hover{
     background-color: green;
-    
-    
 }
 a {
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     font-size: 1.2em;
+    color:#F8F8FF;
 }
 a:visited{
-    color: black;
+    color: #F8F8FF;
 }
-a:hover{
-    color:white;
+.image{
+    max-width:90vw;
+    margin: 0 auto;
 }

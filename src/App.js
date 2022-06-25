@@ -4,16 +4,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>55 Years</h1>
-         
-      <img src={newImg} alt="Works only on Computer"/>
-      
-        <div>
-          <ul className='instructions'><li><h2>Computer only</h2></li>
-          <li>Click " <em>Download</em> "</li>
-          <li>Click " <em>Download Anway</em> "</li>
-          <li>Wait for Download to begin</li></ul>
-        </div>
+      <img className="image"src={newImg} alt="Works only on Computer"/>
         <button>
           <a href="https://drive.google.com/uc?export=download&id=1fDiK41VicGfSCYS_eAj_muuGhDvLhgeh" download="anniversary">Download</a>
         </button>
