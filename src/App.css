@@ -1,7 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+html {
+  background-color: #F8F8FF;
+}
+
 h1 {
   font-family: "Poppins", sans-serif;
-  font-size: 3em;
+  font-size: 4em;
+}
+@media screen and (min-width: 440px) {
+  h1 {
+    font-size: 6em;
+  }
 }
 
 h2 {
@@ -10,10 +19,10 @@ h2 {
 }
 
 .container {
+  margin: auto;
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: auto;
   justify-content: center;
   width: 100%;
 }
